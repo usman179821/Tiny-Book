@@ -13,6 +13,7 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var catgoryTableVIew: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "Muhmmad Usman"
         // Do any additional setup after loading the view.
     }
     

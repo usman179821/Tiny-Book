@@ -36,6 +36,7 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         
         self.navigationItem.title = "Branch Code"
+        
         service.instance.categoryArraySetup ()
         service.instance.yearArraySetup()
         service.instance.bestBookArraySetUp()
