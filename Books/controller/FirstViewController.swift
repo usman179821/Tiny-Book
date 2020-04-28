@@ -35,7 +35,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        self.navigationItem.title = "Branch Code"
         service.instance.categoryArraySetup ()
         service.instance.yearArraySetup()
         service.instance.bestBookArraySetUp()
